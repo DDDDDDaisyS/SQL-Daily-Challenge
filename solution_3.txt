@@ -1,0 +1,8 @@
+SELECT Email
+FROM Person
+GROUP BY Email
+HAVING COUNT(Email) > 1;
+
+#Note that 
+#1.where is used before GROUP BY，HAVING is used after GROUP BY
+#2.Aggregate Functions (avg、sum、max、min、count) cannot be used as conditions after WHERE, instead, can be used after HAVING
