@@ -8,3 +8,4 @@ Daily Practice for Memory Refreshing <br>
     a) where is used before GROUP BY，HAVING is used after GROUP BY<br>
     b) Aggregate Functions (avg、sum、max、min、count) cannot be used as conditions after WHERE, instead, can be used after HAVING
 4. Challenge 183. Customers Who Never Order: [solution](solution_4.txt)
+5. Challenge 196. Delete Duplicate Emails: [solution](solution_5.txt)
