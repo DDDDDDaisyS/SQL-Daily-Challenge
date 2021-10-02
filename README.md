@@ -10,3 +10,4 @@ Daily Practice for Memory Refreshing <br>
 4. Challenge 183. Customers Who Never Order: [solution](solution_4.txt)
 5. Challenge 196. Delete Duplicate Emails: [solution](solution_5.txt)
 6. Challenge 197. Rising Temperature: [solution](solution_6.txt)
+7. Challenge 595. Big Countries: [solution](solution_7.txt)
