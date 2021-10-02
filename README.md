@@ -11,3 +11,4 @@ Daily Practice for Memory Refreshing <br>
 5. Challenge 196. Delete Duplicate Emails: [solution](solution_5.txt)
 6. Challenge 197. Rising Temperature: [solution](solution_6.txt)
 7. Challenge 595. Big Countries: [solution](solution_7.txt)
+8. Challenge 596. Classes More Than 5 Students: [solution](solution_8.txt)
