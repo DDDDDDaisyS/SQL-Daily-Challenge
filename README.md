@@ -9,3 +9,4 @@ Daily Practice for Memory Refreshing <br>
     b) Aggregate Functions (avg、sum、max、min、count) cannot be used as conditions after WHERE, instead, can be used after HAVING
 4. Challenge 183. Customers Who Never Order: [solution](solution_4.txt)
 5. Challenge 196. Delete Duplicate Emails: [solution](solution_5.txt)
+6. Challenge 197. Rising Temperature: [solution](solution_6.txt)
