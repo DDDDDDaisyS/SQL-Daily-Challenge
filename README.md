@@ -14,3 +14,4 @@ Daily Practice for Memory Refreshing <br>
 8. Challenge 596. Classes More Than 5 Students: [solution](solution_8.txt)
 9. Challenge 620. Not Boring Movies: [solution](solution_9.txt)
 10. Challenge 627. Swap Salary: [solution](solution_10.txt)
+11. Challenge 1179. Reformat Department Table: [solution](solution_11.txt)
