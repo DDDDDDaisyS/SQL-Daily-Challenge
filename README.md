@@ -15,3 +15,4 @@ Daily Practice for Memory Refreshing <br>
 9. Challenge 620. Not Boring Movies: [solution](solution_9.txt)
 10. Challenge 627. Swap Salary: [solution](solution_10.txt)
 11. Challenge 1179. Reformat Department Table: [solution](solution_11.txt)
+12. Challenge 176. Second Highest Salary: [solution](solution_12.txt)
