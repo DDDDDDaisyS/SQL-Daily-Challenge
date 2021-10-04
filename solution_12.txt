@@ -7,3 +7,12 @@ SELECT
      LIMIT 1 OFFSET 1), 
     NULL)
     AS SecondHighestSalary
+
+##or
+
+SELECT MAX(Salary) AS SecondHighestSalary
+FROM Employee
+WHERE Salary < (SELECT MAX(Salary)
+                FROM Employee)
+
+## First one will be more applicable if looking for the 3rd, the 4th or so on. 
