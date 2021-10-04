@@ -16,3 +16,4 @@ Daily Practice for Memory Refreshing <br>
 10. Challenge 627. Swap Salary: [solution](solution_10.txt)
 11. Challenge 1179. Reformat Department Table: [solution](solution_11.txt)
 12. Challenge 176. Second Highest Salary: [solution](solution_12.txt)
+13. Challenge 177. Nth Highest Salary: [solution](solution_13.txt)
