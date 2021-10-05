@@ -17,3 +17,6 @@ Daily Practice for Memory Refreshing <br>
 11. Challenge 1179. Reformat Department Table: [solution](solution_11.txt)
 12. Challenge 176. Second Highest Salary: [solution](solution_12.txt)
 13. Challenge 177. Nth Highest Salary: [solution](solution_13.txt)
+
+### Challenges on StrataScratch <br>
+1. Salaries Differences: [solution](strata_s_1.txt)
