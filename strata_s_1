@@ -1,0 +1,15 @@
+SELECT max(max_salary) - min(max_salary) AS salary_difference
+FROM 
+    (SELECT max(e.salary) AS max_salary
+    FROM db_employee e
+    LEFT JOIN db_dept d
+    ON e.department_id = d.id
+    WHERE d.department IN ('engineering', 'marketing')
+    GROUP BY department
+    ) AS x;
+
+## ABOUT x: if 'x' is not added, there will be a syntax error.
+## ERROR: Subquery in FROM must have an alias
+## SQLSTATE: 42601 (Class 42 — Syntax Error or Access Rule Violation: syntax_error)
+## The correct fix is to give the subquery in the FROM clause an alias (i.e. a name), so that it can be uniquely identified in the query.
+## You have to do this even if you are not going to reference the name anywhere
