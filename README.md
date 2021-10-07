@@ -25,3 +25,4 @@ Daily Practice for Memory Refreshing <br>
 4. Popularity of Hack: [solution](strata_s_4.txt)
 5. Customer Details: [solution](strata_s_5.txt)
 6. Average Salaries: [solution](strata_s_6.txt)
+7. Total Cost Of Orders: [solution](strata_s_7.txt)
