@@ -1,0 +1,5 @@
+SELECT neighbourhood, AVG(beds)
+FROM airbnb_search_details
+GROUP BY 1
+HAVING AVG(beds) >= 3
+ORDER BY 2 DESC;
