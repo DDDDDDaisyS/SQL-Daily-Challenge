@@ -23,4 +23,4 @@ Daily Practice for Memory Refreshing <br>
 2. Finding Updated Records: [solution](strata_s_2.txt)
 3. Number Of Bathrooms And Bedrooms: [solution](strata_s_3.txt)
 4. Popularity of Hack: [solution](strata_s_4.txt)
-5. 
+5. Customer Details: [solution](strata_s_5.txt)
