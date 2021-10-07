@@ -21,3 +21,4 @@ Daily Practice for Memory Refreshing <br>
 ### Challenges on StrataScratch <br>
 1. Salaries Differences: [solution](strata_s_1.txt)
 2. Finding Updated Records: [solution](strata_s_2.txt)
+3. Number Of Bathrooms And Bedrooms: [solution](strata_s_3.txt)
