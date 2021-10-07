@@ -1,0 +1,6 @@
+SELECT DISTINCT c.id, c.first_name, 
+    SUM(o.total_order_cost) OVER (PARTITION BY o.cust_id) AS total_order_cost
+FROM customers c
+INNER JOIN orders o
+ON c.id = o.cust_id
+ORDER BY c.first_name;
