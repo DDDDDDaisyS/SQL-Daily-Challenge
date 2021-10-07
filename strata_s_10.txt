@@ -1,0 +1,4 @@
+SELECT facility_zip, COUNT(DISTINCT facility_id) AS num_facility, COUNT(service_code) AS num_inspection
+FROM los_angeles_restaurant_health_inspections
+GROUP BY 1
+ORDER BY 3 DESC;
