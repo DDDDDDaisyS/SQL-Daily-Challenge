@@ -27,3 +27,4 @@ Daily Practice for Memory Refreshing <br>
 6. Average Salaries: [solution](strata_s_6.txt)
 7. Total Cost Of Orders: [solution](strata_s_7.txt)
 8. Gender With Generous Reviews: [solution](strata_s_8.txt)
+9. 3 Bed Minimum: [solution](strata_s_9.txt)
