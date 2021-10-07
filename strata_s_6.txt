@@ -1,0 +1,14 @@
+## Method 1
+SELECT department, first_name, salary, 
+    AVG(salary) OVER (PARTITION BY department) AS avg_salary 
+FROM employee;
+
+## Method 2
+SELECT e1.department, e1.first_name, e1.salary, x.avg_salary
+FROM employee e1
+LEFT JOIN 
+    (SELECT AVG(e2.salary) AS avg_salary, e2.department
+    FROM employee e2
+    GROUP BY e2.department
+    ) AS x
+ON e1.department = x.department;
