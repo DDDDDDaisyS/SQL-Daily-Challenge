@@ -24,3 +24,4 @@ Daily Practice for Memory Refreshing <br>
 3. Number Of Bathrooms And Bedrooms: [solution](strata_s_3.txt)
 4. Popularity of Hack: [solution](strata_s_4.txt)
 5. Customer Details: [solution](strata_s_5.txt)
+6. Average Salaries: [solution](strata_s_6.txt)
