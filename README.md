@@ -33,3 +33,4 @@ Daily Practice for Memory Refreshing <br>
 12. Sales Dept Salaries: [solution](strata_s_12.txt)
 13. Guest Or Host Kindness: [solution](strata_s_13.txt)
 14. Total AdWords Earnings:[solution](strata_s_14.txt)
+15 Cheapest Properties: [solution](strata_s_15.txt)
