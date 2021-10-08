@@ -36,3 +36,4 @@ Daily Practice for Memory Refreshing <br>
 15. Cheapest Properties: [solution](strata_s_15.txt)
 16. Number of Employees Per Department: [solution](strata_s_16.txt)
 17. Not Referred Employees: [solution](strata_s_17.txt)
+18. Find the average score for grades A, B, and C: [solution](strata_s_18.txt)
