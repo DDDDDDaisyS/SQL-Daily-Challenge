@@ -1,0 +1,4 @@
+SELECT DISTINCT first_name
+FROM employee
+WHERE target > 150 AND department = 'Sales'
+ORDER BY first_name DESC;
