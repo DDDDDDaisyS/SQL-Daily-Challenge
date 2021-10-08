@@ -1,0 +1,4 @@
+SELECT activity_date, COUNT(service_code) AS num_inspections
+FROM los_angeles_restaurant_health_inspections
+GROUP BY 1
+ORDER BY 1;
