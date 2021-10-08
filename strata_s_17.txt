@@ -1,0 +1,3 @@
+SELECT first_name
+FROM employee
+WHERE NOT manager_id = 1;
