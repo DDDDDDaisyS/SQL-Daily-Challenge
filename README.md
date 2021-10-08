@@ -19,6 +19,7 @@ Daily Practice for Memory Refreshing <br>
 13. Challenge 177. Nth Highest Salary: [solution](solution_13.txt)
 
 ### Challenges on StrataScratch <br>
+### EASY ###
 1. Salaries Differences: [solution](strata_s_1.txt)
 2. Finding Updated Records: [solution](strata_s_2.txt)
 3. Number Of Bathrooms And Bedrooms: [solution](strata_s_3.txt)
@@ -39,3 +40,7 @@ Daily Practice for Memory Refreshing <br>
 18. Find the average score for grades A, B, and C: [solution](strata_s_18.txt)
 19. Employees With Bonuses: [solution](strata_s_19.txt)
 20. Find the number of inspections per day: [solution](strata_s_20.txt)
+
+### MEDIUM ###
+21. Acceptance Rate By Date: [solution](strata_s_21.txt)
+
