@@ -29,3 +29,4 @@ Daily Practice for Memory Refreshing <br>
 8. Gender With Generous Reviews: [solution](strata_s_8.txt)
 9. 3 Bed Minimum: [solution](strata_s_9.txt)
 10. Number Of Unique Facilities And Inspections Per Municipality: [solution](strata_s_10.txt)
+11. 'BAKERY' Owned Facilities: [solution](strata_s_11.txt)
