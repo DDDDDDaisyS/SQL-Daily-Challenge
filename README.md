@@ -31,3 +31,4 @@ Daily Practice for Memory Refreshing <br>
 10. Number Of Unique Facilities And Inspections Per Municipality: [solution](strata_s_10.txt)
 11. 'BAKERY' Owned Facilities: [solution](strata_s_11.txt)
 12. Sales Dept Salaries: [solution](strata_s_12.txt)
+13. Guest Or Host Kindness: [solution](strata_S_13.txt)
