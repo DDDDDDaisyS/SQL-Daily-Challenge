@@ -38,3 +38,4 @@ Daily Practice for Memory Refreshing <br>
 17. Not Referred Employees: [solution](strata_s_17.txt)
 18. Find the average score for grades A, B, and C: [solution](strata_s_18.txt)
 19. Employees With Bonuses: [solution](strata_s_19.txt)
+20. Find the number of inspections per day: [solution](strata_s_20.txt)
