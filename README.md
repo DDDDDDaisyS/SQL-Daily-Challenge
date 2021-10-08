@@ -37,3 +37,4 @@ Daily Practice for Memory Refreshing <br>
 16. Number of Employees Per Department: [solution](strata_s_16.txt)
 17. Not Referred Employees: [solution](strata_s_17.txt)
 18. Find the average score for grades A, B, and C: [solution](strata_s_18.txt)
+19. Employees With Bonuses: [solution](strata_s_19.txt)
