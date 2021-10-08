@@ -35,3 +35,4 @@ Daily Practice for Memory Refreshing <br>
 14. Total AdWords Earnings:[solution](strata_s_14.txt)
 15. Cheapest Properties: [solution](strata_s_15.txt)
 16. Number of Employees Per Department: [solution](strata_s_16.txt)
+17. Not Referred Employees: [solution](strata_s_17.txt)
