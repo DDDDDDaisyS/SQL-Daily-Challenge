@@ -1,0 +1,10 @@
+SELECT x.date, CAST(COUNT(CASE WHEN x.action = 'accepted' THEN 1 ELSE NULL END) AS FLOAT)
+  / COUNT(CASE WHEN x.action = 'sent' THEN 1 ELSE NULL END) AS acceptance_rate
+FROM
+    (SELECT f1.date, f2.action
+    FROM fb_friend_requests f1
+    LEFT JOIN fb_friend_requests f2
+    ON f1.user_id_sender = f2.user_id_sender AND f1.user_id_receiver = f2.user_id_receiver
+    WHERE f1.action = 'sent'
+    ) AS x
+GROUP BY x.date;
