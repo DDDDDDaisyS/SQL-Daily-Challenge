@@ -45,4 +45,5 @@ Daily Practice for Memory Refreshing <br>
 21. Acceptance Rate By Date: [solution](strata_s_21.txt)
 22. Highest Energy Consumption: [solution](strata_s_22.txt)
 23. Finding User Purchases: [solution](strata_s_23.txt)
+24. Users By Avg Session time: [solution](strata_s_24.txt)
 
