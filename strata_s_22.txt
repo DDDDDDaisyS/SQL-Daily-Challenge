@@ -1,0 +1,11 @@
+SELECT date, SUM(consumption) AS total_consumption
+FROM 
+    (SELECT date, consumption FROM fb_eu_energy
+    UNION ALL
+    SELECT date, consumption FROM fb_asia_energy
+    UNION ALL
+    SELECT date, consumption FROM fb_na_energy
+    ) AS x
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 2;
