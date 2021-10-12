@@ -46,4 +46,4 @@ Daily Practice for Memory Refreshing <br>
 22. Highest Energy Consumption: [solution](strata_s_22.txt)
 23. Finding User Purchases: [solution](strata_s_23.txt)
 24. Users By Avg Session time: [solution](strata_s_24.txt)
-
+*25. Risky Projects: [solution](strata_s_25.txt) 
