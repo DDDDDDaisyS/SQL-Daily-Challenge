@@ -47,3 +47,4 @@ Daily Practice for Memory Refreshing <br>
 23. Finding User Purchases: [solution](strata_s_23.txt)
 24. Users By Avg Session time: [solution](strata_s_24.txt)
 *25. Risky Projects: [solution](strata_s_25.txt) 
+26. Customer Revenue In March: [solution](strata_s_26.txt)
