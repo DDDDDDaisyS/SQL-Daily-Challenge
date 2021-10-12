@@ -1,0 +1,6 @@
+SELECT SUM(total_order_cost) AS revenue, cust_id
+FROM orders
+WHERE DATE_PART('month', order_date) = 3
+GROUP BY 2
+ORDER BY 1 DESC
+;
