@@ -1,0 +1,17 @@
+WITH t1 AS (
+    SELECT p.id, p.title, p.budget, p.end_date-p.start_date AS project_length, s.salary
+    FROM linkedin_projects p
+    RIGHT JOIN linkedin_emp_projects e
+    ON p.id = e.project_id
+    LEFT JOIN linkedin_employees s
+    ON e.emp_id = s.id
+    ), t2 AS (
+    SELECT title, budget, CEILING(SUM(salary/365*project_length)) AS pay
+    FROM t1
+    GROUP BY title, budget
+    )
+    
+SELECT title, budget, pay  
+FROM t2
+WHERE budget < pay
+;
