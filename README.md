@@ -48,3 +48,5 @@ Daily Practice for Memory Refreshing <br>
 24. Users By Avg Session time: [solution](strata_s_24.txt)
 *25. Risky Projects: [solution](strata_s_25.txt) 
 26. Customer Revenue In March: [solution](strata_s_26.txt)
+*27. SMS Confirmations from Users
+28. Most Active Users On Messenger: [solution](strata_s_28.txt)
