@@ -50,3 +50,4 @@ Daily Practice for Memory Refreshing <br>
 26. Customer Revenue In March: [solution](strata_s_26.txt)
 *27. SMS Confirmations from Users
 28. Most Active Users On Messenger: [solution](strata_s_28.txt)
+29. Top Cool Votes: [solution](strata_s_29.txt)
