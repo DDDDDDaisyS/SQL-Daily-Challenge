@@ -1,0 +1,13 @@
+WITH t AS
+    (SELECT p.post_date,
+        COUNT(CASE WHEN p.post_keywords = '[#spam#]' THEN 1 END) AS num_spam,
+        COUNT(p.post_keywords) AS num_viewed
+    FROM facebook_posts p
+    RIGHT JOIN facebook_post_views v
+    ON p.post_id = v.post_id
+    GROUP BY p.post_date
+    )
+SELECT t.post_date, 
+    t.num_spam * 100./ t.num_viewed 
+FROM t
+;
