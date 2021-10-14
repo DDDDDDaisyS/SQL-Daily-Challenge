@@ -52,3 +52,4 @@ Daily Practice for Memory Refreshing <br>
 28. Most Active Users On Messenger: [solution](strata_s_28.txt)
 29. Top Cool Votes: [solution](strata_s_29.txt)
 30. Spam Posts: [solution](strata_s_30.txt)
+31. Classify Business Type: [solution](strata_s_31.txt)
