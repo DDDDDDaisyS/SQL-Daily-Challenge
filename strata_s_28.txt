@@ -1,0 +1,14 @@
+WITH t AS
+    (SELECT user1 AS user, msg_count
+    FROM fb_messages
+    UNION ALL 
+    SELECT user2 AS user, msg_count
+    FROM fb_messages
+    )
+
+SELECT t.user, SUM(t.msg_count) AS total_msg_count
+FROM t
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 10
+;
