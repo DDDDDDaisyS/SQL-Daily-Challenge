@@ -1,0 +1,27 @@
+SELECT DISTINCT business_name, 
+    (CASE
+        WHEN LOWER(business_name) LIKE '%restaurant%' THEN 'restaurant'
+        WHEN LOWER(business_name) LIKE '%cafe%' OR LOWER(business_name) LIKE '%café%' OR LOWER(business_name) LIKE '%coffee%' THEN 'cafe'
+        WHEN LOWER(business_name) LIKE '%school%' THEN 'school'
+        ELSE 'other'
+    END) AS business_type
+FROM sf_restaurant_health_violations 
+;
+
+### CASE WHEN PART CAN BE CHANGED AS
+
+       CASE
+           WHEN lower(business_name) like '%school%') THEN 'school'
+           WHEN lower(business_name) like '%restaurant%') THEN 'restaurant'
+           WHEN lower(business_name) like any(array['%cafe%', '%café%', '%coffee%']) THEN 'cafe'
+           ELSE 'other'
+       END AS business_type
+
+### OR USE ILIKE INSTEAD OF LIKE, LIKE IS CASE SENSITIVE WHILE ILIKE IS NOT CASE SENSITIVE
+
+    (CASE
+        WHEN business_name ILIKE '%restaurant%' THEN 'restaurant'
+        WHEN business_name ILIKE any(array['%cafe%', '%café%', '%coffee%']) THEN 'cafe'
+        WHEN business_name ILIKE '%school%' THEN 'school'
+        ELSE 'other'
+    END) AS business_type
