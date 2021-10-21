@@ -1,0 +1,5 @@
+SELECT UNNEST(string_to_array(categories, ';')) AS category, SUM(review_count)
+FROM yelp_business
+GROUP BY 1
+ORDER BY 2 DESC
+;
