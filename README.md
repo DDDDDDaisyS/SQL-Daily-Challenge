@@ -54,3 +54,4 @@ Daily Practice for Memory Refreshing <br>
 30. Spam Posts: [solution](strata_s_30.txt)
 31. Classify Business Type: [solution](strata_s_31.txt)
 32. Order Details: [solution](strata_s_32.txt)
+33. Reviews of Categories: [solution](strata_s_33.txt)
