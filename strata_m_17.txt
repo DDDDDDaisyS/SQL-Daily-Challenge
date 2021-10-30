@@ -1,0 +1,10 @@
+WITH x AS
+    (SELECT DISTINCT p.*, COUNT(e.emp_id) OVER (PARTITION BY e.project_id) AS num_emp
+    FROM ms_projects p
+    INNER JOIN ms_emp_projects e
+    ON p.id = e.project_id
+    )
+SELECT title, budget/num_emp AS budget_per_emp
+FROM x
+ORDER BY 2 DESC
+;
