@@ -56,3 +56,6 @@ Daily Practice for Memory Refreshing <br>
 12. Order Details: [solution](strata_m_12.txt)
 13. Reviews of Categories: [solution](strata_m_13.txt)
 14. Highest Salary In Department: [solution](strata_m_14.txt)
+15. New Products: [solution](strata_m_15.txt) **
+16. Workers With The Highest Salaries: [solution](strata_m_16.txt)
+17. Expensive Projects: [solution](strata_m_17.txt)
