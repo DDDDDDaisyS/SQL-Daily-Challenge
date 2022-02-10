@@ -1,7 +1,7 @@
 # SQL-Daily-Challenge
 Daily Practice for Memory Refreshing <br>
 ### Challenges on Leetcode from Easy to Hard <br>
-1. Challenge 175. Combine Two Tables: [solution](solution_1.txt)
+1. Challenge 175. Combine Two Tables: [solution](Leetcode_Challenge/solution_1.txt)
 2. Challenge 181. Employees Earning More Than Their Managers: [solution](solution_2.txt)
 3. Challenge 182. Duplicate Emails: [solution](solution_3.txt) <br>
     Note:<br>
