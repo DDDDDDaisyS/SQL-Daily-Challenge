@@ -1,0 +1,9 @@
+SELECT c.first_name, SUM(o.total_order_cost) AS total_cost, o.order_date
+FROM orders o
+JOIN customers c
+ON o.cust_id = c.id
+WHERE order_date BETWEEN '2019-02-01' AND '2019-05-01'
+GROUP BY c.first_name, order_date
+ORDER BY total_cost DESC
+LIMIT 1
+;
