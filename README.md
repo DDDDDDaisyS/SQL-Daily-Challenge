@@ -59,3 +59,4 @@ Daily Practice for Memory Refreshing <br>
 15. New Products: [solution](StrataScratch_Challenge/strata_m_15.txt) **
 16. Workers With The Highest Salaries: [solution](StrataScratch_Challenge/strata_m_16.txt)
 17. Expensive Projects: [solution](StrataScratch_Challenge/strata_m_17.txt)
+18. Highest Cost Orders: [solution](StrataScratch_Challenge/strata_m_18.txt)
