@@ -1,0 +1,8 @@
+SELECT r.user_id, u.name, SUM(r.distance) AS total_distance
+FROM lyft_rides_log r
+JOIN lyft_users u
+ON r.user_id = u.id
+GROUP BY r.user_id, u.name
+ORDER BY total_distance DESC
+LIMIT 10
+;
