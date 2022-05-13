@@ -60,3 +60,5 @@ Daily Practice for Memory Refreshing <br>
 16. Workers With The Highest Salaries: [solution](StrataScratch_Challenge/strata_m_16.txt)
 17. Expensive Projects: [solution](StrataScratch_Challenge/strata_m_17.txt)
 18. Highest Cost Orders: [solution](StrataScratch_Challenge/strata_m_18.txt)
+19. Distances Traveled: [solution](StrataScratch_Challenge/strata_m_19.txt)
+
